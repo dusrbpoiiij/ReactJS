@@ -9,4 +9,10 @@ function App() {
     <div className="App">
 
       <HookCounterTwo />
-      {/
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+    </div>
+  );
+}
+
+export default App;
