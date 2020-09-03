@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import ComponentF from './ComponentF'
-import {UserContext, ChannelContext} from '../App'
+import {UserContext, ChannelContext, CountContext} from '../App'
 
 function ComponentE() {
 
@@ -11,7 +11,8 @@ function ComponentE() {
         <div>
             {/* <ComponentF /> */}
 
-            {user} - {channel}
+            {/* {user} - {channel} */}
+            <ComponentF />
         </div>
     )
 }

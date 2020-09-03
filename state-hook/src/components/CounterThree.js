@@ -16,11 +16,11 @@ const reducer = (state, action) => {
 
 
 function CounterThree() {
-
+    
     // Multiple Reducers 
     const [count, dispatch] = useReducer(reducer, initialState)
     const [countTwo, dispatchTwo] = useReducer(reducer, initialState)
-
+    
     return (
         <div>
             <div>Count - {count}</div>
